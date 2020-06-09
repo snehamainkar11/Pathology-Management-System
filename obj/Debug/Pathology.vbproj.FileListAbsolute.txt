@@ -1,0 +1,169 @@
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Resources.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.vbproj.GenerateResource.Cache
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\bin\Debug\Pathology.exe
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\bin\Debug\Pathology.pdb
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\bin\Debug\Pathology.xml
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.exe
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.xml
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.pdb
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.forgotpass.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.frmnewuser.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.frmlogin.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Patient_Master.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Doctor_Master.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Employee_Master.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Purchase.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Bill.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Chemical_Master.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.FrmEmpPayment.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Patient_Checkup.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.FrmMDI.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.ReportForward.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.ReportInward.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\bin\Debug\Pathology.exe.config
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\bin\Debug\patholabDB.mdf
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\bin\Debug\patholabDB_log.ldf
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.ReportCreation.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Frmchngpass.resources
+D:\Pathology Project\Pathology\Pathology\bin\Debug\Pathology.exe.config
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.exe
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.xml
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.pdb
+D:\Pathology Project\Pathology\Pathology\bin\Debug\patholabDB.mdf
+D:\Pathology Project\Pathology\Pathology\bin\Debug\patholabDB_log.ldf
+D:\Pathology Project\Pathology\Pathology\bin\Debug\Pathology.exe
+D:\Pathology Project\Pathology\Pathology\bin\Debug\Pathology.pdb
+D:\Pathology Project\Pathology\Pathology\bin\Debug\Pathology.xml
+D:\Pathology Project\Pathology\Pathology\obj\Debug\ResolveAssemblyReference.cache
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Bill.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Chemical_Master.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.DiseaseMaster.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Doctor_Master.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Employee_Master.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Expences.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.forgotpass.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.frmCasePaper.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Frmchngpass.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.FrmEmpAttendance.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.FrmEmpPayment.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.frmlogin.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.FrmMDI.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.frmnewuser.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Resources.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Patient_Checkup.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Patient_Master.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.Purchase.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.PurchaseDet.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.ReportCreation.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.ReportForward.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.ReportInward.resources
+D:\Pathology Project\Pathology\Pathology\obj\Debug\Pathology.vbproj.GenerateResource.Cache
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.PurchaseDetails.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.FrmEmpAttendence.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.frmExpences.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.DealerMaster.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.DiseaseMaster.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.TestMaster.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptEmpPayment.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptExpence.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptForward.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.EquipmentMaster.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptPatCheckup.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptPurDetails.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptTestReport.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptTotalBill.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.rptTest.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.Reports.resources
+E:\Pathology\Pathology\bin\Debug\patholabDB.mdf
+E:\Pathology\Pathology\bin\Debug\patholabDB_log.ldf
+E:\Pathology\Pathology\bin\Debug\Pathology.exe.config
+E:\Pathology\Pathology\bin\Debug\Pathology.exe
+E:\Pathology\Pathology\bin\Debug\Pathology.pdb
+E:\Pathology\Pathology\bin\Debug\Pathology.xml
+E:\Pathology\Pathology\obj\Debug\ResolveAssemblyReference.cache
+E:\Pathology\Pathology\obj\Debug\Pathology.Bill.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Chemical_Master.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.DealerMaster.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Doctor_Master.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Employee_Master.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.EquipmentMaster.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.forgotpass.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Reports.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Frmchngpass.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.FrmEmpAttendence.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.FrmEmpPayment.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.frmExpences.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.frmlogin.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.FrmMDI.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.frmnewuser.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Resources.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Patient_Checkup.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Patient_Master.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.Purchase.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.PurchaseDetails.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.ReportCreation.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.ReportForward.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.ReportInward.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.DiseaseMaster.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptEmpPayment.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptExpence.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptForward.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptPatCheckup.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptPurDetails.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptTest.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptTestReport.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.rptTotalBill.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.TestMaster.resources
+E:\Pathology\Pathology\obj\Debug\Pathology.vbproj.GenerateResource.Cache
+E:\Pathology\Pathology\obj\Debug\Pathology.exe
+E:\Pathology\Pathology\obj\Debug\Pathology.xml
+E:\Pathology\Pathology\obj\Debug\Pathology.pdb
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.StockMaster.resources
+C:\Users\Htc\Documents\Visual Studio 2008\Projects\Pathology\Pathology\obj\Debug\Pathology.ChemicalUsed.resources
+D:\VB Project\Pathology\Pathology\bin\Debug\Pathology.exe.config
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.exe
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.xml
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.pdb
+D:\VB Project\Pathology\Pathology\bin\Debug\patholabDB.mdf
+D:\VB Project\Pathology\Pathology\bin\Debug\patholabDB_log.ldf
+D:\VB Project\Pathology\Pathology\bin\Debug\Pathology.exe
+D:\VB Project\Pathology\Pathology\bin\Debug\Pathology.pdb
+D:\VB Project\Pathology\Pathology\bin\Debug\Pathology.xml
+D:\VB Project\Pathology\Pathology\obj\Debug\ResolveAssemblyReference.cache
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Bill.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.ChemicalUsed.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Chemical_Master.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.DealerMaster.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Doctor_Master.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Employee_Master.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.EquipmentMaster.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.forgotpass.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Reports.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Frmchngpass.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.FrmEmpAttendence.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.FrmEmpPayment.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.frmExpences.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.frmlogin.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.FrmMDI.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.frmnewuser.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Resources.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Patient_Checkup.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Patient_Master.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.Purchase.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.PurchaseDetails.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.ReportCreation.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.ReportForward.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.ReportInward.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.DiseaseMaster.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptEmpPayment.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptExpence.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptForward.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptPatCheckup.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptPurDetails.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptTest.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptTestReport.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.rptTotalBill.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.StockMaster.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.TestMaster.resources
+D:\VB Project\Pathology\Pathology\obj\Debug\Pathology.vbproj.GenerateResource.Cache

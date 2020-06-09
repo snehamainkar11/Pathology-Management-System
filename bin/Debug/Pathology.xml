@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Pathology
+</name>
+</assembly>
+<members>
+<member name="T:Pathology.patholabDBDataSet30.PurDetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30.PurDetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30.PurDetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30TableAdapters.PurDetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet30,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet30)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet30TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.ExpenceDataSet.ExpenceTblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.ExpenceDataSet.ExpenceTblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.ExpenceDataSet.ExpenceTblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.ExpenceDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.ExpenceDataSetTableAdapters.ExpenceTblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.ExpenceDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.ExpenceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.ExpenceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.ExpenceDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.ExpenceDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29.BillDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29.BillDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29.BillDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29TableAdapters.BillDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet29,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet29)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet29TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1.FinalBillDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1.FinalBillRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1.FinalBillRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1TableAdapters.FinalBillTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16.EmpAttendenceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16.EmpAttendenceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16.EmpAttendenceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16TableAdapters.EmpAttendenceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet16)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet16TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20.TestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20.TestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20.TestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20TableAdapters.TestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet20)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet20TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23.ReportResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23.ReportResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23.ReportResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23TableAdapters.ReportResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet23)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet23TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26.ResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26.ResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26.ResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26TableAdapters.ResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet26)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet26TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4.DoctMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4.DoctMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4.DoctMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4TableAdapters.DoctMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7.EmpPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7.EmpPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7.EmpPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7TableAdapters.EmpPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet.RCreateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet.ReportResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet.RCreateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet.ReportResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet.RCreateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet.ReportResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.RptCreateDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSetTableAdapters.RCreateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSetTableAdapters.ReportResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.RptCreateDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.RptCreateDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.RptCreateDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.RptCreateDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.RptCreateDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13.RInwrdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13.RInwrdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13.RInwrdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13TableAdapters.RInwrdTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet13)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet13TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10.PurDetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10.PurDetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10.PurDetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10TableAdapters.PurDetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19.TestRecordDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19.TestRecordRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19.TestRecordRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19TableAdapters.TestRecordTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet19)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet19TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3.ChemMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3.ChemMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3.ChemMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3TableAdapters.ChemMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6.ExpenceTblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6.ExpenceTblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6.ExpenceTblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6TableAdapters.ExpenceTblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9.PurchaseTblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9.PurchaseTblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9.PurchaseTblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9TableAdapters.PurchaseTblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22.DiseaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22.DiseaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22.DiseaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22TableAdapters.DiseaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet22)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet22TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28.ResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28.ResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28.ResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28TableAdapters.ResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet28,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet28)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet28TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25.EquipmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25.EquipmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25.EquipmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25TableAdapters.EquipmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet25,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet25)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet25TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.FBillDataSet.FinalBillDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.FBillDataSet.FinalBillRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.FBillDataSet.FinalBillRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.FBillDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.FBillDataSetTableAdapters.FinalBillTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.FBillDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.FBillDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.FBillDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.FBillDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.FBillDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.FBillDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.FBillDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.FBillDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.FBillDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.FBillDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.FBillDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.FBillDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12.RFrwdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12.RFrwdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12.RFrwdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12TableAdapters.RFrwdTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet12)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet12TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15.TestRecordDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15.TestRecordRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15.TestRecordRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15TableAdapters.TestRecordTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet15)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet15TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.PurDetDataset.PurDetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.PurDetDataset.PurDetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.PurDetDataset.PurDetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.PurDetDataset">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.PurDetDatasetTableAdapters.PurDetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.PurDetDataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.PurDetDataset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.PurDetDataset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.UpdateAll(Pathology.PurDetDataset)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.PurDetDatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.PurDetDatasetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSet.PurDetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSet.PurDetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSet.PurDetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSetTableAdapters.PurDetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.PurDetailsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.PurDetailsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.PurDetailsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.PurDetailsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.PurDetailsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSet.EmpPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSet.EmpPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSet.EmpPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSetTableAdapters.EmpPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.EmpPaymentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.EmpPaymentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.EmpPaymentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.EmpPaymentDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.EmpPaymentDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.RForwordDataSet.RFrwdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.RForwordDataSet.RFrwdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.RForwordDataSet.RFrwdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.RForwordDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.RForwordDataSetTableAdapters.RFrwdTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.RForwordDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.RForwordDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.RForwordDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.RForwordDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.RForwordDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.RForwordDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31.ChemUsedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31.ChemUsedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31.ChemUsedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31TableAdapters.ChemUsedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet31,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet31)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet31TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2.PatntCheckupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2.PatntCheckupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2.PatntCheckupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2TableAdapters.PatntCheckupTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24.BillCostDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24.BillCostRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24.BillCostRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24TableAdapters.BillCostTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet24)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet24TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27.ResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27.ResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27.ResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27TableAdapters.ResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet27,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet27)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet27TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5.EmpMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5.EmpMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5.EmpMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5TableAdapters.EmpMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8.PatntMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8.PatntMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8.PatntMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8TableAdapters.PatntMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Pathology.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Pathology.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Pathology.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11.RCreateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11.RCreateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11.RCreateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11TableAdapters.RCreateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet11)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet11TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14.DiseaseMstrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14.DiseaseMstrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14.DiseaseMstrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14TableAdapters.DiseaseMstrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet14)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet14TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17.DealerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17.DealerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17.DealerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17TableAdapters.DealerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet17)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet17TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21.FinalBillDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21.FinalBillRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21.FinalBillRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21TableAdapters.FinalBillTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet21)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet21TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.TstResultDataSet.ResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.TstResultDataSet.ResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.TstResultDataSet.ResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.TstResultDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.TstResultDataSetTableAdapters.ResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.TstResultDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.TstResultDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.TstResultDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.TstResultDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.TstResultDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.TstResultDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSet.PatntCheckupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSet.PatntCheckupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSet.PatntCheckupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSetTableAdapters.PatntCheckupTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.PatCheckupDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.PatCheckupDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.PatCheckupDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.UpdateAll(Pathology.PatCheckupDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.PatCheckupDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18.ResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18.ResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18.ResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18TableAdapters.ResultTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pathology.patholabDBDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(Pathology.patholabDBDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(Pathology.patholabDBDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.UpdateAll(Pathology.patholabDBDataSet18)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pathology.patholabDBDataSet18TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

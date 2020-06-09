@@ -1,0 +1,1435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19F107C1-23C9-46B2-ACE3-8DB16C49A1B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Pathology.My.MyApplication</StartupObject>
+    <RootNamespace>Pathology</RootNamespace>
+    <AssemblyName>Pathology</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Pathology.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Pathology.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bill.Designer.vb">
+      <DependentUpon>Bill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChemicalUsed.Designer.vb">
+      <DependentUpon>ChemicalUsed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChemicalUsed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chemical_Master.Designer.vb">
+      <DependentUpon>Chemical_Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chemical_Master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassCon.vb" />
+    <Compile Include="CrystalReport3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DealerMaster.Designer.vb">
+      <DependentUpon>DealerMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DealerMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_Master.Designer.vb">
+      <DependentUpon>Doctor_Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Master.Designer.vb">
+      <DependentUpon>Employee_Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpPay.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmpPay.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EmpPaymentDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmpPaymentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EquipmentMaster.Designer.vb">
+      <DependentUpon>EquipmentMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EquipmentMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpenceDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExpenceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Expences.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Expences.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FBill.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FBill.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FBillDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FBillDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="forgotpass.Designer.vb">
+      <DependentUpon>forgotpass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forgotpass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patholabDBDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet28.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet29.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet30.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PurDetailsRpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurDetailsRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PurDetDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurDetDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.Designer.vb">
+      <DependentUpon>Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangpass.Designer.vb">
+      <DependentUpon>frmChangpass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangpass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmpAttendence.Designer.vb">
+      <DependentUpon>FrmEmpAttendence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmpAttendence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmpPayment.Designer.vb">
+      <DependentUpon>FrmEmpPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmpPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpences.Designer.vb">
+      <DependentUpon>frmExpences.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpences.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMDI.Designer.vb">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnewuser.Designer.vb">
+      <DependentUpon>frmnewuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmnewuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PatCheckup.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatCheckup.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PatCheckupDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatCheckupDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet161.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet161.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet181.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet181.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet3.vb">
+      <DependentUpon>patholabDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="patholabDBDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patholabDBDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Checkup.Designer.vb">
+      <DependentUpon>Patient_Checkup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Checkup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient_Master.Designer.vb">
+      <DependentUpon>Patient_Master.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_Master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.vb">
+      <DependentUpon>Purchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseDet.Designer.vb">
+      <DependentUpon>PurchaseDet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseDet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurDetailsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PurDetailsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCreation.Designer.vb">
+      <DependentUpon>ReportCreation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCreation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForward.Designer.vb">
+      <DependentUpon>ReportForward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportForward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportInward.Designer.vb">
+      <DependentUpon>ReportInward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportInward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiseaseMaster.Designer.vb">
+      <DependentUpon>DiseaseMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DiseaseMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RForword.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RForword.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RForwordDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RForwordDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RptCreateDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptCreateDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RptCreateDataSet.vb">
+      <DependentUpon>RptCreateDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="rptEmpPayment.Designer.vb">
+      <DependentUpon>rptEmpPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptEmpPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptExpence.Designer.vb">
+      <DependentUpon>rptExpence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptExpence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptForward.Designer.vb">
+      <DependentUpon>rptForward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptForward.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptPatCheckup.Designer.vb">
+      <DependentUpon>rptPatCheckup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptPatCheckup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptPurDetails.Designer.vb">
+      <DependentUpon>rptPurDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptPurDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptTest.Designer.vb">
+      <DependentUpon>rptTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptTestReport.Designer.vb">
+      <DependentUpon>rptTestReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptTestReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptTotalBill.Designer.vb">
+      <DependentUpon>rptTotalBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rptTotalBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockMaster.Designer.vb">
+      <DependentUpon>StockMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestMaster.Designer.vb">
+      <DependentUpon>TestMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TstResultDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TstResultDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChemicalUsed.resx">
+      <DependentUpon>ChemicalUsed.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chemical_Master.resx">
+      <DependentUpon>Chemical_Master.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DealerMaster.resx">
+      <DependentUpon>DealerMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_Master.resx">
+      <DependentUpon>Doctor_Master.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Master.resx">
+      <DependentUpon>Employee_Master.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpPay.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmpPay.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipmentMaster.resx">
+      <DependentUpon>EquipmentMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expences.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Expences.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBill.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FBill.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotpass.resx">
+      <DependentUpon>forgotpass.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurDetailsRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PurDetailsRpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangpass.resx">
+      <DependentUpon>frmChangpass.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmpAttendence.resx">
+      <DependentUpon>FrmEmpAttendence.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmpPayment.resx">
+      <DependentUpon>FrmEmpPayment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpences.resx">
+      <DependentUpon>frmExpences.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMDI.resx">
+      <DependentUpon>FrmMDI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnewuser.resx">
+      <DependentUpon>frmnewuser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatCheckup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PatCheckup.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient_Checkup.resx">
+      <DependentUpon>Patient_Checkup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient_Master.resx">
+      <DependentUpon>Patient_Master.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseDet.resx">
+      <DependentUpon>PurchaseDet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCreation.resx">
+      <DependentUpon>ReportCreation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForward.resx">
+      <DependentUpon>ReportForward.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportInward.resx">
+      <DependentUpon>ReportInward.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiseaseMaster.resx">
+      <DependentUpon>DiseaseMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RForword.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RForword.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEmpPayment.resx">
+      <DependentUpon>rptEmpPayment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptExpence.resx">
+      <DependentUpon>rptExpence.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptForward.resx">
+      <DependentUpon>rptForward.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPatCheckup.resx">
+      <DependentUpon>rptPatCheckup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptPurDetails.resx">
+      <DependentUpon>rptPurDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTest.resx">
+      <DependentUpon>rptTest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTestReport.resx">
+      <DependentUpon>rptTestReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptTotalBill.resx">
+      <DependentUpon>rptTotalBill.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockMaster.resx">
+      <DependentUpon>StockMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestMaster.resx">
+      <DependentUpon>TestMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TReport.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13735V.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner_pms.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner_pms1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pad_screenshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forgot-password-icon-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forgot-password-icone-4084-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-Vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img-thing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo-digital-illustration-of-fungi-candida-albicans-which-cause-candidiasis-on-colorful-background-363452303.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img-thing1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28769124-Vector-Golden-Keys-bunch-Stock-Vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_and_forth_questions_md_wm_v2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th%289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th%284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28769135-Vector-Golden-Keys-bunch-Stock-Vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changepasswords.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changepasswords1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th%2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-Vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th%289%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th%2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_24616951973858.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background-Vector2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th%281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_background_surface_solid_18481_640x11361.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My-Galaxy-Note2-Wallpaper-HD-Simple-%2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My-Galaxy-Note2-Wallpaper-HD-Simple-%2810%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My-Galaxy-Note2-Wallpaper-HD-Simple-%2810%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My-Galaxy-Note2-Wallpaper-HD-Simple-%2810%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ampath-Laboratories-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicines-l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-photo-digital-illustration-of-fungi-candida-albicans-which-cause-candidiasis-on-colorful-background-3634523031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="patholabDBDataSet.xsc">
+      <DependentUpon>patholabDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet.xss">
+      <DependentUpon>patholabDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="patholabDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="patholabDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>patholabDB.mdf</DependentUpon>
+    </Content>
+    <None Include="patholabDBDataSet22.xsc">
+      <DependentUpon>patholabDBDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet22.xss">
+      <DependentUpon>patholabDBDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet29.xsc">
+      <DependentUpon>patholabDBDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet29.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet29.xss">
+      <DependentUpon>patholabDBDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet30.xsc">
+      <DependentUpon>patholabDBDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet30.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet30.xss">
+      <DependentUpon>patholabDBDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet31.xsc">
+      <DependentUpon>patholabDBDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet31.xss">
+      <DependentUpon>patholabDBDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="PurDetDataset.xsc">
+      <DependentUpon>PurDetDataset.xsd</DependentUpon>
+    </None>
+    <None Include="PurDetDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurDetDataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PurDetDataset.xss">
+      <DependentUpon>PurDetDataset.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\images1.jpg" />
+    <None Include="Resources\65267631-medical-blood-tube-test-tube-for-laboratory-empty-on-rack-on-a-while-background1.jpg" />
+    <None Include="Resources\Biochemist1Trans1.png" />
+    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\34122532-Sign-up-concept-on-blue-background-with-world-map-and-social-icons--Stock-Photo.jpg" />
+    <None Include="Resources\51445246-Sign-up-hand-pressing-button-on-interface-with-blue-background--Stock-Photo.jpg" />
+    <None Include="Resources\images1.jpeg" />
+    <None Include="Resources\Biochemist1Trans.png" />
+    <None Include="Resources\index.png" />
+    <None Include="Resources\12137617-scientific-background-collage.jpg" />
+    <None Include="Resources\65267631-medical-blood-tube-test-tube-for-laboratory-empty-on-rack-on-a-while-background.jpg" />
+    <None Include="patholabDBDataSet13.xsc">
+      <DependentUpon>patholabDBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet13.xss">
+      <DependentUpon>patholabDBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet181.xsc">
+      <DependentUpon>patholabDBDataSet181.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet181.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet181.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet181.xss">
+      <DependentUpon>patholabDBDataSet181.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet26.xsc">
+      <DependentUpon>patholabDBDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet26.xss">
+      <DependentUpon>patholabDBDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet27.xsc">
+      <DependentUpon>patholabDBDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet27.xss">
+      <DependentUpon>patholabDBDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet28.xsc">
+      <DependentUpon>patholabDBDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet28.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet28.xss">
+      <DependentUpon>patholabDBDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\banner_pms3.jpg" />
+    <None Include="Resources\stock-photo-pathology-text-on-visual-doctor-background-480929956.jpg" />
+    <None Include="Resources\path_lab_logo-250x2501.gif" />
+    <None Include="FBillDataSet.xsc">
+      <DependentUpon>FBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FBillDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FBillDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FBillDataSet.xss">
+      <DependentUpon>FBillDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\66.jpg" />
+    <None Include="Resources\MDR-APLIS-MainMenu.jpg" />
+    <None Include="Resources\path_lab_logo-250x250.gif" />
+    <None Include="Resources\login-text-connect-computer-mouse-color-background-50726614.jpg" />
+    <None Include="Resources\64167393-medical-concept-pathology-stethoscope-and-red-heart-on-a-white-background.jpg" />
+    <None Include="Resources\images44.jpeg" />
+    <None Include="Resources\images33.jpeg" />
+    <None Include="Resources\images90.jpeg" />
+    <None Include="Resources\images.jpeg" />
+    <None Include="PurDetailsDataSet.xsc">
+      <DependentUpon>PurDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PurDetailsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PurDetailsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PurDetailsDataSet.xss">
+      <DependentUpon>PurDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\images %283%292.jpg" />
+    <None Include="Resources\images %283%291.jpg" />
+    <None Include="Resources\download %284%29.jpg" />
+    <None Include="Resources\changepasswords2.png" />
+    <None Include="Resources\images %283%29.jpg" />
+    <None Include="Resources\images %282%29.jpg" />
+    <None Include="Resources\download %282%29.jpg" />
+    <None Include="Resources\depositphotos_19713683-stock-photo-login-concept.jpg" />
+    <None Include="Resources\login-text-connect-computer-mouse-color-background-51032832.jpg" />
+    <None Include="EmpPaymentDataSet.xsc">
+      <DependentUpon>EmpPaymentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EmpPaymentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmpPaymentDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EmpPaymentDataSet.xss">
+      <DependentUpon>EmpPaymentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ExpenceDataSet.xsc">
+      <DependentUpon>ExpenceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ExpenceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExpenceDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ExpenceDataSet.xss">
+      <DependentUpon>ExpenceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PatCheckupDataSet.xsc">
+      <DependentUpon>PatCheckupDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PatCheckupDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PatCheckupDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PatCheckupDataSet.xss">
+      <DependentUpon>PatCheckupDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet1.xsc">
+      <DependentUpon>patholabDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet1.xss">
+      <DependentUpon>patholabDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet10.xsc">
+      <DependentUpon>patholabDBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet10.xss">
+      <DependentUpon>patholabDBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet11.xsc">
+      <DependentUpon>patholabDBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet11.xss">
+      <DependentUpon>patholabDBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet12.xsc">
+      <DependentUpon>patholabDBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet12.xss">
+      <DependentUpon>patholabDBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet2.xsc">
+      <DependentUpon>patholabDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet2.xss">
+      <DependentUpon>patholabDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet21.xsc">
+      <DependentUpon>patholabDBDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet21.xss">
+      <DependentUpon>patholabDBDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet23.xsc">
+      <DependentUpon>patholabDBDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet23.xss">
+      <DependentUpon>patholabDBDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet24.xsc">
+      <DependentUpon>patholabDBDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet24.xss">
+      <DependentUpon>patholabDBDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet25.xsc">
+      <DependentUpon>patholabDBDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet25.xss">
+      <DependentUpon>patholabDBDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet8.xsc">
+      <DependentUpon>patholabDBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet8.xss">
+      <DependentUpon>patholabDBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet9.xsc">
+      <DependentUpon>patholabDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet9.xss">
+      <DependentUpon>patholabDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\th%284%291.jpg" />
+    <None Include="Resources\th%289%292.jpg" />
+    <None Include="Resources\Diagnostic-Testing1.jpg" />
+    <None Include="patholabDBDataSet15.xsc">
+      <DependentUpon>patholabDBDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet15.xss">
+      <DependentUpon>patholabDBDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet19.xsc">
+      <DependentUpon>patholabDBDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet19.xss">
+      <DependentUpon>patholabDBDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet20.xsc">
+      <DependentUpon>patholabDBDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet20.xss">
+      <DependentUpon>patholabDBDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\images2.png" />
+    <None Include="patholabDBDataSet161.xsc">
+      <DependentUpon>patholabDBDataSet161.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet161.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet161.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet161.xss">
+      <DependentUpon>patholabDBDataSet161.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet17.xsc">
+      <DependentUpon>patholabDBDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet17.xss">
+      <DependentUpon>patholabDBDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet4.xsc">
+      <DependentUpon>patholabDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet4.xss">
+      <DependentUpon>patholabDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet5.xsc">
+      <DependentUpon>patholabDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet5.xss">
+      <DependentUpon>patholabDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet6.xsc">
+      <DependentUpon>patholabDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet6.xss">
+      <DependentUpon>patholabDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet7.xsc">
+      <DependentUpon>patholabDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet7.xss">
+      <DependentUpon>patholabDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\banner_pms2.jpg" />
+    <None Include="Resources\banner61.jpg" />
+    <None Include="patholabDBDataSet14.xsc">
+      <DependentUpon>patholabDBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet14.xss">
+      <DependentUpon>patholabDBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet3.xsc">
+      <DependentUpon>patholabDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="patholabDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>patholabDBDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="patholabDBDataSet3.xss">
+      <DependentUpon>patholabDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\banner6.jpg" />
+    <None Include="Resources\banner-pathology.jpg" />
+    <None Include="Resources\banner-services1.jpg" />
+    <None Include="Resources\dm3000-5.jpg" />
+    <None Include="Resources\banner-services.jpg" />
+    <None Include="Resources\Diagnostic-Testing.jpg" />
+    <None Include="RForwordDataSet.xsc">
+      <DependentUpon>RForwordDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RForwordDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RForwordDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RForwordDataSet.xss">
+      <DependentUpon>RForwordDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RptCreateDataSet.xsc">
+      <DependentUpon>RptCreateDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RptCreateDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RptCreateDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RptCreateDataSet.xss">
+      <DependentUpon>RptCreateDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TstResultDataSet.xsc">
+      <DependentUpon>TstResultDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TstResultDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TstResultDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TstResultDataSet.xss">
+      <DependentUpon>TstResultDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
